@@ -20,7 +20,7 @@ class Stack<Type> implements stackInterface<Type> {
     }
     pop(): Type | undefined {
        if (this.isEmpty()) {
-          console.log("A fila está vazia");
+          console.log("A Pilha está vazia");
           return;
        } else {
           var element = this.StackData.pop();
@@ -38,7 +38,7 @@ class Stack<Type> implements stackInterface<Type> {
     }
     peek(): Type | undefined {
        if (this.isEmpty()) {
-          console.log("A fila está vazia");
+          console.log("A Pilha está vazia");
           return;
        } else {
           var element = this.StackData[this.StackData.length - 1];

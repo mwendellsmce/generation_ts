@@ -26,7 +26,7 @@ class Queue<Type> implements queueInterface<Type> {
  
    dequeue(): Type | undefined {
       if (this.isEmpty()) {
-         console.log("A fila está vazia");
+         console.log("A Fila está vazia");
          return;
       } else {
          var element = this.QueueData.shift();
