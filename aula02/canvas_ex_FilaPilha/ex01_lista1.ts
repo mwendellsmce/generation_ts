@@ -1,5 +1,5 @@
-import leia = require('readline-sync')
-import Queue = require('../Queue')
+import leia from "readline-sync"
+import { Queue } from "../Queue"
 
 let opcao: number
 const fila = new Queue<string>()
@@ -35,6 +35,6 @@ do {
         console.log("Opção inválida")
     }
 } while (opcao !== 0)
-    
+
 
 

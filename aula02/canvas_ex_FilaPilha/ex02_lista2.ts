@@ -1,6 +1,5 @@
-import leia = require('readline-sync')
-import Stack = require('../Stack')
-
+import leia from "readline-sync"
+import { Stack } from "../Stack"
 let opcao: number
 const pilha = new Stack<string>()
 
